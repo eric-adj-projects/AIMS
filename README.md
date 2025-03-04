@@ -1,58 +1,67 @@
-IMPORTANT NOTICE: This repository contains only mockups, documentation, and demonstration assets for the FAST application. The actual source code is not publicly available. This repository is intended for showcase and demonstration purposes only.
-# FAST - FMSG Accomplishment STAR Tool
+# AIMS - Artificial Intelligence Meeting Summarizer
+
+**IMPORTANT NOTICE:** This repository contains only mockups, documentation, and demonstration assets for the AIMS application. The actual source code is proprietary and not publicly available. This repository is intended for showcase and demonstration purposes only.
 
 <div align="center">
-  <img src="assets/FAST.png" width="80%"/>
-</div>
-
-<div align="center">
-  <h3>Transform accomplishment details into professional STAR format narratives</h3>
+  <h3>Transform meeting transcripts into actionable summaries and insights</h3>
 </div>
 
 ## 📋 Overview
-FAST (FMSG Accomplishment STAR Tool) is a Streamlit-based application that automates the conversion of raw accomplishment details into structured STAR format narratives (Situation, Task, Action, Result). Designed to streamline the documentation process for performance reviews, promotions, and recognition programs.
+
+AIMS (Artificial Intelligence Meeting Summarizer) is an AI-powered tool that automatically processes meeting transcripts and documents to generate comprehensive summaries and enable intelligent question-answering about meeting content.
 
 <div align="center">
-  
+  <h2>AIMS</h2>
 </div>
 
 ## ✨ Key Features
-- **Automated STAR Generation**: Convert plain text into well-structured STAR format narratives
-- **Parallel Processing**: Generate all STAR components simultaneously with asynchronous architecture
-- **Professional Output**: Ensures third-person, professionally formatted narratives
-- **Excel Export**: One-click export with optimized formatting for easy sharing
-- **Template Integration**: Access to pre-formatted templates for various accomplishment types
-- **Performance Optimized**: Rapid processing with resource caching and optimized initialization
+
+- **Multi-format Support**: Process PDF, DOCX, VTT, and TXT files with 100% format compatibility
+- **Automatic Document Summarization**: Instantly generate comprehensive meeting summaries
+- **Interactive Q&A**: Ask questions about meeting content using natural language
+- **Real-time Progress Tracking**: 3-step processing indicators provide 100% visibility
+- **Context-Aware Responses**: Maintains chat history for coherent follow-up conversations
+- **Optimized Performance**: Chroma DB with cosine similarity indexing reduces query latency by 30%
 
 ## 🚀 Impact
-- Reduces accomplishment writing time by 75% (from 2 hours to 30 minutes per document)
-- Improves document quality by 85% through consistent STAR methodology adherence
-- Saves an estimated 3,000+ hours of collective writing time annually
-- Improves organizational efficiency by 40% through standardized documentation
 
-## 📊 How It Works 
-1. Input Accomplishment Details
+- Decreases meeting follow-ups through comprehensive summaries
+- Improves response relevance with contextual compression retrieval
+- Increases meeting productivity with instant access to meeting insights
+
+## 📊 How It Works
+
+The application follows a streamlined process to transform meeting documents into valuable insights:
+
 <div align="center">
+  <h2>AIMS Process Flow</h2>
 </div>
 
-2. Generate STAR Components
-<div align="center">
-</div>
+1. **Document Upload**
+   - Upload meeting transcripts or documents in PDF, DOCX, VTT, or TXT formats.
 
-3. Export and Share
-<div align="center">
-</div>
+2. **Automated Processing**
+   - The system processes the document through three key stages:
+     - Document parsing and chunking
+     - Vector embedding and storage
+     - Summary generation
+
+3. **Interactive Q&A**
+   - Ask questions about meeting content through an intuitive chat interface, with responses backed by relevant source references.
 
 ## 📚 Documentation
-- Usage Guide
-- Feature Details
-- FAQ
+
+- [Usage Guide](#)
+- [Feature Details](#)
+- [FAQ](#)
 
 ## 🛠️ Technology Stack
-- **Frontend**: Streamlit
-- **NLP Processing**: Custom-engineered prompting techniques
-- **Data Processing**: Asynchronous Python architecture
-- **Export Functionality**: Pandas, OpenPyXL
+
+- **Framework**: Streamlit
+- **LLM Integration**: LangChain & Ollama
+- **Vector Database**: Chroma DB
+- **Document Processing**: PyPDF2, Docx2txt
 
 ## 📄 License
-© [2025] Eric A. All Rights Reserved.
+
+© 2025 Eric A. All Rights Reserved.
