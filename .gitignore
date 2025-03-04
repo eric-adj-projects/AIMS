@@ -35,19 +35,25 @@ ENV/
 .DS_Store
 Thumbs.db
 
+# Streamlit-specific
+.streamlit/
+
 # Application-specific
 *.log
-*.xlsx
-*.docx
-!assets/templates/*.docx
+*.db
+*.sqlite3
 temp/
 data/
 config.ini
 secrets.json
 
-# Streamlit-specific
-.streamlit/
+# Code files - ensure no actual code is committed
+*.py
+*.ipynb
+requirements.txt
+Pipfile
+Pipfile.lock
+setup.py
 
-# Large files
-*.model
-*.bin
+# Exceptions for mockups or documentation
+!.github/workflows/*.yml
