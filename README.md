@@ -55,7 +55,6 @@ The application follows a streamlined process to transform meeting documents int
 
 ## 📚 Documentation
 
-- [Usage Guide](#)
 - [Feature Details](#)
 - [FAQ](#)
 
