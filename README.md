@@ -6,6 +6,10 @@
   <h3>Transform meeting transcripts into actionable summaries and insights</h3>
 </div>
 
+<div align="center">
+  <img src="assets/AIMS.png" width="80%"/>
+</div>
+
 ## 📋 Overview
 
 AIMS (Artificial Intelligence Meeting Summarizer) is an AI-powered tool that automatically processes meeting transcripts and documents to generate comprehensive summaries and enable intelligent question-answering about meeting content.
