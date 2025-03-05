@@ -1,6 +1,6 @@
 # AIMS - Artificial Intelligence Meeting Summarizer
 
-**IMPORTANT NOTICE:** This repository contains only mockups, documentation, and demonstration assets for the AIMS application. The actual source code is proprietary and not publicly available. This repository is intended for showcase and demonstration purposes only.
+**IMPORTANT NOTICE:** This repository contains only mockups, documentation, and demonstration assets for the AIMS application. The actual source code is not publicly available. This repository is intended for showcase and demonstration purposes only.
 
 <div align="center">
   <h3>Transform meeting transcripts into actionable summaries and insights</h3>
