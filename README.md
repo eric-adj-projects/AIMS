@@ -55,8 +55,8 @@ The application follows a streamlined process to transform meeting documents int
 
 ## 📚 Documentation
 
-- [Feature Details](features.md)
-- [FAQ](#)
+- [Feature Details](Docs/features.md)
+- [FAQ](Doc/faq.md)
 
 ## 🛠️ Technology Stack
 
